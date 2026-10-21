@@ -1,0 +1,71 @@
+{
+  "name": "3d-portfolio",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.1.0",
+    "maath": "^0.10.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-google-recaptcha-v3": "^1.11.0",
+    "react-router-dom": "^7.18.4",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^4.0.0",
+    "resend": "^6.32.1",
+    "sonner": "^2.0.8",
+    "tailwind-merge": "^3.7.0",
+    "three": "^0.186.1",
+    "three-stdlib": "^2.36.1"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.2",
+    "@netlify/vite-plugin": "^3.0.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  },
+  "author": {
+    "name": "SuperMike96",
+    "url": "https://github.com/SuperMike96"
+  },
+  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
+  "keywords": [
+    "reactjs",
+    "react",
+    "porfolio-app",
+    "three-js",
+    "resend",
+    "netlify",
+    "modern-ui/ux",
+    "js",
+    "javascript",
+    "html",
+    "css",
+    "tailwindcss"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperMike96/Mike-profile.git"
+  },
+  "homepage": "https://github.com/SuperMike96/Mike-profile#readme",
+  "bugs": {
+    "url": "https://github.com/SuperMike96/Mike-profile/issues"
+  }
+}
