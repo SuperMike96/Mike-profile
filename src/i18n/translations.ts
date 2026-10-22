@@ -47,34 +47,12 @@ export const UI = {
   contact: {
     sub: { en: "Get in touch", zh: "取得联系" },
     title: { en: "Contact", zh: "联系" },
-    name: { en: "Your Name*", zh: "你的姓名*" },
-    email: { en: "Your Email*", zh: "你的邮箱*" },
-    message: { en: "Your Message*", zh: "你的留言*" },
-    namePh: { en: "John Doe", zh: "张三" },
-    emailPh: { en: "johndoe@email.com", zh: "you@email.com" },
-    messagePh: { en: "Hello there!", zh: "你好！" },
-    nameTitle: { en: "What's your name?", zh: "你叫什么名字？" },
-    emailTitle: { en: "What's your email?", zh: "你的邮箱是？" },
-    messageTitle: { en: "What do you want to say?", zh: "想说点什么？" },
-    invalidName: { en: "Invalid Name!", zh: "姓名无效！" },
-    invalidEmail: { en: "Invalid E-mail!", zh: "邮箱无效！" },
-    invalidMessage: { en: "Invalid Message!", zh: "留言无效！" },
-    send: { en: "Send", zh: "发送" },
-    sending: { en: "Sending...", zh: "发送中..." },
-    recaptcha: {
-      en: "This site is protected by reCAPTCHA.",
-      zh: "本站受 reCAPTCHA 保护。",
+    body: {
+      en: "Reach me on Xiaohongshu (小红书).",
+      zh: "请通过小红书联系我。",
     },
-    unavailable: {
-      en: "Contact form is currently unavailable.",
-      zh: "联系表单暂不可用。",
-    },
-    recaptchaNotReady: {
-      en: "reCAPTCHA is not ready. Please try again.",
-      zh: "reCAPTCHA 尚未就绪，请稍后再试。",
-    },
-    thanks: { en: "Thanks for contacting me.", zh: "感谢联系我。" },
-    somethingWrong: { en: "Something went wrong.", zh: "出错了，请稍后再试。" },
+    accountLabel: { en: "Account nickname", zh: "账号昵称" },
+    cta: { en: "Open 小红书", zh: "打开小红书" },
   },
   footer: {
     rights: {

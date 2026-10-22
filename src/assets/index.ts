@@ -48,6 +48,8 @@ import globe from "./testimonials/globe.png";
 import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
+import x from "./socials/x.svg";
+import xiaohongshu from "./socials/xiaohongshu.svg";
 import youtube from "./socials/youtube.svg";
 
 export {
@@ -94,4 +96,6 @@ export {
   youtube,
   linkedin,
   twitter,
+  x,
+  xiaohongshu,
 };

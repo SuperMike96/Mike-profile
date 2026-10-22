@@ -25,8 +25,8 @@ import {
   award,
   translate,
   globe,
-  youtube,
-  twitter,
+  xiaohongshu,
+  x,
   github,
 } from "../assets";
 
@@ -404,6 +404,10 @@ export const PROJECTS = [
   },
 ] as const;
 
+export const XIAOHONGSHU_NICKNAME = "Mike的AI旅行";
+
+export const XIAOHONGSHU_LINK = `https://www.xiaohongshu.com/search_result?keyword=${encodeURIComponent(XIAOHONGSHU_NICKNAME)}`;
+
 export const SOCIALS = [
   {
     name: "GitHub",
@@ -411,14 +415,13 @@ export const SOCIALS = [
     link: "https://github.com/SuperMike96",
   },
   {
-    name: "X",
-    icon: twitter,
-    link: "https://x.com/superMi11818336",
+    name: "小红书 · Mike的AI旅行",
+    icon: xiaohongshu,
+    link: XIAOHONGSHU_LINK,
   },
   {
-    // No dedicated Xiaohongshu icon in assets; temporarily reusing youtube.svg
-    name: "小红书 · Mike的AI旅行",
-    icon: youtube,
-    link: "https://www.xiaohongshu.com/search_result?keyword=Mike的AI旅行",
+    name: "X",
+    icon: x,
+    link: "https://x.com/superMi11818336",
   },
 ] as const;
