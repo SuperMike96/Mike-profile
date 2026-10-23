@@ -20,8 +20,6 @@ import {
   dbappsecurity,
   pythonDev,
   confidential,
-  project3,
-  project6,
   award,
   translate,
   globe,
@@ -33,6 +31,8 @@ import {
 import douyinNotes from "../assets/projects/mike/douyin-notes.png";
 import aiNews from "../assets/projects/mike/ai-news.png";
 import predictiveXiangqi from "../assets/projects/mike/predictive-xiangqi.png";
+import wealthReturnsDashboard from "../assets/projects/mike/wealth-returns-dashboard.png";
+import eatToday from "../assets/projects/mike/eat-today.png";
 import weddingCandy from "../assets/projects/mike/wedding-candy.png";
 
 export type LocalizedString = { en: string; zh: string };
@@ -329,14 +329,14 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
+    image: wealthReturnsDashboard,
     image_alt: {
-      en: "Template dashboard image; not a Wealth Returns screenshot",
-      zh: "模板后台看板配图，非财富收益看板截图",
+      en: "Wealth Returns Dashboard demo with sample holdings and return charts. Amounts are fake demo data, not real investments.",
+      zh: "财富收益看板演示界面，含示例持仓和收益曲线。图中金额为演示数据，不是真实投资。",
     },
     image_note: {
-      en: "Template image · screenshot pending",
-      zh: "模板配图 · 待补项目截图",
+      en: "Demo dashboard · sample data only",
+      zh: "演示看板 · 仅为示例数据",
     },
     source_code_link: "",
     live_site_link: "",
@@ -361,14 +361,14 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project6,
+    image: eatToday,
     image_alt: {
-      en: "Template travel/food image; not a What to Eat Today screenshot",
-      zh: "模板旅行餐饮配图，非今天吃什么项目截图",
+      en: "What to Eat Today swipe picker showing Kung Pao chicken, with skip, maybe, and want actions",
+      zh: "今天吃什么的滑动选菜界面，当前菜品为宫保鸡丁，可跳过、待定或想吃",
     },
     image_note: {
-      en: "Template image · screenshot pending",
-      zh: "模板配图 · 待补项目截图",
+      en: "Swipe meal picker",
+      zh: "滑动选菜界面",
     },
     source_code_link: "",
     live_site_link: "",
