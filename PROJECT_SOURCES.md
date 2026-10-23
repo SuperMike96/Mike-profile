@@ -40,13 +40,13 @@
 ### 4. 财富收益看板
 
 - 事实：`网页版_理财收益/README.md`。多笔理财记录、收益分析、资产趋势、封闭期、XIRR、隐私模式和本地导入导出。
-- 未找到源目录内项目截图或封面。沿用 `src/assets/projects/project3.png` 模板后台看板图，卡片明确显示“模板配图 · 待补项目截图”，替代文本也说明不是实际项目截图。
+- 图片：Mike 提供的演示截图，原样复制为 `src/assets/projects/mike/wealth-returns-dashboard.png`。图中产品（如稳健理财 A）和金额都是演示数据，不是真实持仓。卡片说明为“演示看板 · 仅为示例数据”。不再使用 `src/assets/projects/project3.png` 模板后台图。
 - 标签：收益分析 / XIRR / 本地存储。公开链接：空。
 
 ### 5. 今天吃什么
 
 - `codex_001/` 没有 README；补查 `package.json`、`src/App.tsx` 和 `CHANGES.md`。功能以当前代码为准：想吃/待定/跳过、菜单确认、食材汇总、分步菜谱及本地记录。“我的第一个 Codex 项目”由 Mike 本次明确提供。
-- 未找到源目录内项目截图或封面。沿用 `src/assets/projects/project6.png` 模板旅行餐饮图，卡片与替代文本明确说明属于模板配图。
+- 图片：Mike 提供的滑动选菜界面截图，原样复制为 `src/assets/projects/mike/eat-today.png`。画面为宫保鸡丁选菜卡片。不再使用 `src/assets/projects/project6.png` 模板旅行餐饮图。
 - 标签：生活工具 / 滑动选菜 / 食材清单。公开链接：空。
 
 ### 6. AI 婚礼系列
