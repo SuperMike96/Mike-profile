@@ -48,11 +48,11 @@ export const UI = {
     sub: { en: "Get in touch", zh: "取得联系" },
     title: { en: "Contact", zh: "联系" },
     body: {
-      en: "Reach me on Xiaohongshu (小红书).",
-      zh: "请通过小红书联系我。",
+      en: "Reach me on X.",
+      zh: "请通过 X 联系我。",
     },
-    accountLabel: { en: "Account nickname", zh: "账号昵称" },
-    cta: { en: "Open 小红书", zh: "打开小红书" },
+    accountLabel: { en: "X account", zh: "X 账号" },
+    cta: { en: "Open X", zh: "打开 X" },
   },
   footer: {
     rights: {

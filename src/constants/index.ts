@@ -408,6 +408,10 @@ export const XIAOHONGSHU_NICKNAME = "Mike的AI旅行";
 
 export const XIAOHONGSHU_LINK = `https://www.xiaohongshu.com/search_result?keyword=${encodeURIComponent(XIAOHONGSHU_NICKNAME)}`;
 
+export const X_HANDLE = "@superMi11818336";
+
+export const X_LINK = "https://x.com/superMi11818336";
+
 export const SOCIALS = [
   {
     name: "GitHub",
@@ -422,6 +426,6 @@ export const SOCIALS = [
   {
     name: "X",
     icon: x,
-    link: "https://x.com/superMi11818336",
+    link: X_LINK,
   },
 ] as const;

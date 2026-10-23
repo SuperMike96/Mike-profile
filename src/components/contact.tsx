@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-import { xiaohongshu } from "../assets";
-import { XIAOHONGSHU_LINK, XIAOHONGSHU_NICKNAME } from "../constants";
+import { x } from "../assets";
+import { X_HANDLE, X_LINK } from "../constants";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { UI, useLanguage } from "../i18n/LanguageContext";
@@ -30,18 +30,16 @@ export const Contact = () => {
               <p className="text-secondary text-[13px] uppercase tracking-wider">
                 {t(UI.contact.accountLabel)}
               </p>
-              <p className="text-white text-[22px] font-bold mt-1">
-                {XIAOHONGSHU_NICKNAME}
-              </p>
+              <p className="text-white text-[22px] font-bold mt-1">{X_HANDLE}</p>
             </div>
 
             <a
-              href={XIAOHONGSHU_LINK}
+              href={X_LINK}
               target="_blank"
               rel="noreferrer noopener"
               className="inline-flex items-center gap-3 bg-tertiary py-3 px-8 w-fit text-white font-bold shadow-md shadow-primary rounded-xl border border-secondary/20 hover:border-white/40 transition"
             >
-              <img src={xiaohongshu} alt="" className="h-5 w-auto" />
+              <img src={x} alt="" className="h-5 w-5" />
               {t(UI.contact.cta)}
             </a>
           </div>
